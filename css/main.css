@@ -149,11 +149,11 @@ section {
       section:nth-child(1) {
         background-image: linear-gradient(to bottom, #47ddb0, #476fdd); } }
   section:nth-child(2) {
-    background-image: linear-gradient(to right, #476fdd 2%, rgba(71, 111, 221, 0.6), rgba(71, 221, 176, 0.6), #47ddb0 98%), url(../../imgs/wallpaper.jpg);
+    background-image: linear-gradient(to right, #476fdd 2%, rgba(71, 111, 221, 0.6), rgba(71, 221, 176, 0.6), #47ddb0 98%), url(../imgs/wallpaper.jpg);
     background-size: cover; }
     @media (max-width: 52.3em) {
       section:nth-child(2) {
-        background-image: linear-gradient(to bottom, #476fdd 2%, rgba(71, 111, 221, 0.6), rgba(71, 221, 176, 0.6), #47ddb0 98%), url(../../imgs/wallpaper.jpg); } }
+        background-image: linear-gradient(to bottom, #476fdd 2%, rgba(71, 111, 221, 0.6), rgba(71, 221, 176, 0.6), #47ddb0 98%), url(../imgs/wallpaper.jpg); } }
   section:nth-child(3) {
     background-image: linear-gradient(to right, #47ddb0, teal);
     position: relative; }
@@ -360,7 +360,7 @@ section {
       position: absolute;
       display: block;
       width: 100%;
-      height: 88%;
+      height: 100%;
       background-color: rgba(0, 0, 0, 0.8);
       transform: translateX(-100%);
       transition: all .4s; }
