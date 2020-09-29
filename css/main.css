@@ -349,7 +349,7 @@ section {
     border: .3rem solid white;
     margin-left: 6rem; }
   .proyects__box:not(.col-2-of-3) {
-    width: 15.5rem; }
+    width: 24rem; }
   .proyects__box--img {
     height: 100%;
     object-fit: cover;
@@ -400,7 +400,7 @@ section {
 
 img {
   max-width: 100%;
-  max-height: 200%; }
+  max-height: 100%; }
 
 @media (max-width: 75em) {
   .proyects__container {
